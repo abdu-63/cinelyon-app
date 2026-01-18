@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Combine
 import EventKit
 
 /// Gestionnaire pour ajouter des séances au calendrier Apple

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Combine
 import UserNotifications
 
 /// Gestionnaire des notifications locales pour les rappels de séances

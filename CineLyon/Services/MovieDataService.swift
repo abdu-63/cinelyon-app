@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Combine
 
 /// Service singleton pour récupérer et cacher les données de films
 final class MovieDataService: ObservableObject {
