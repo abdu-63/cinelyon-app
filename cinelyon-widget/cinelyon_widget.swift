@@ -305,3 +305,4 @@ struct CineLyonWidget_Previews: PreviewProvider {
         }
     }
 }
+

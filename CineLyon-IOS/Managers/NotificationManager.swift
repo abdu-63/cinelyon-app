@@ -9,6 +9,7 @@
 import Foundation
 import Combine
 import UserNotifications
+import UIKit
 
 /// Gestionnaire des notifications locales pour les rappels de séances
 final class NotificationManager: ObservableObject {
@@ -175,11 +176,7 @@ final class NotificationManager: ObservableObject {
     /// Réinitialise le badge
     @MainActor
     func clearBadge() {
-        UNUserNotificationCenter.current().setBadgeCount(0) { error in
-            if let error = error {
-                print("Badge clear error: \(error)")
-            }
-        }
+        UIApplication.shared.applicationIconBadgeNumber = 0
     }
     
     // MARK: - Errors
