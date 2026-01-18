@@ -87,4 +87,3 @@ https://raw.githubusercontent.com/abdu-63/cinelyon/main/movies.json
 ## Licence
 
 MIT License
-# cinelyon-app
