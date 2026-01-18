@@ -68,9 +68,9 @@ final class CalendarManager: ObservableObject {
         date: Date
     ) async throws -> String {
         // Vérifier l'autorisation
-        guard isAuthorized else {
+        if !isAuthorized {
             let granted = await requestAccess()
-            guard granted else {
+            if !granted {
                 throw CalendarError.notAuthorized
             }
         }

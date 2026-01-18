@@ -86,9 +86,9 @@ final class NotificationManager: ObservableObject {
         reminderType: ReminderType
     ) async throws -> String {
         // Vérifier l'autorisation
-        guard isAuthorized else {
+        if !isAuthorized {
             let granted = await requestAuthorization()
-            guard granted else {
+            if !granted {
                 throw NotificationError.notAuthorized
             }
         }
