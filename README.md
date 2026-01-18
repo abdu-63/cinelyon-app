@@ -2,7 +2,7 @@
 
 Application iOS officielle pour CinéLyon - Catalogue de films et séances de cinéma à Lyon.
 
-## 📱 Fonctionnalités
+## Fonctionnalités
 
 - **Liste des films** avec affiches, recherche et filtres avancés
 - **Favoris** pour films et cinémas
@@ -12,7 +12,7 @@ Application iOS officielle pour CinéLyon - Catalogue de films et séances de ci
 - **Widget** (Small/Medium) affichant les films populaires
 - **Mode hors-ligne** avec cache local
 
-## 🛠 Stack Technique
+## Stack Technique
 
 - **iOS 15.1+** (Compatible iPhone et iPad)
 - **SwiftUI 3.0** avec `NavigationView`
@@ -23,7 +23,7 @@ Application iOS officielle pour CinéLyon - Catalogue de films et séances de ci
 - **EventKit** pour le calendrier
 - **UserNotifications** pour les rappels
 
-## 📁 Structure du Projet
+## Structure du Projet
 
 ```
 CineLyon/
@@ -56,7 +56,7 @@ CineLyonWidget/
 └── CineLyonWidget.swift       # Extension Widget
 ```
 
-## 🚀 Installation
+## Installation
 
 1. Ouvrir Xcode et créer un nouveau projet iOS App
 2. Cible: **iOS 15.1+**
@@ -68,7 +68,7 @@ CineLyonWidget/
    - **Push Notifications**
 7. Lancer sur simulateur ou device
 
-## 📋 Permissions requises (Info.plist)
+## Permissions requises (Info.plist)
 
 ```xml
 <key>NSCalendarsUsageDescription</key>
@@ -77,14 +77,14 @@ CineLyonWidget/
 <string>CinéLyon souhaite vous envoyer des rappels avant vos séances.</string>
 ```
 
-## 🎬 API
+## API
 
 L'application utilise un fichier JSON statique hébergé sur GitHub :
 ```
 https://raw.githubusercontent.com/abdu-63/cinelyon/main/movies.json
 ```
 
-## 📄 Licence
+## Licence
 
 MIT License
 # cinelyon-app
